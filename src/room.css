@@ -1,0 +1,15 @@
+html, body, #root .room {
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.lit {
+    background-color: rgba(168, 168, 120, 0.952);
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
