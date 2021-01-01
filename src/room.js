@@ -41,7 +41,7 @@ function Room() {
       <br />
       <br />
       <br />
-      <h3 style={{display: 'inline'}}>Temperature : </h3><h1 style={{display: 'inline'}}>{temp}</h1><h3 style={{display: 'inline'}}>C</h3>
+      <h3 style={{display: 'inline'}}>Temperature : </h3><h1 style={{display: 'inline', fontSize: 60 + 'px'}}>{temp}</h1><h3 style={{display: 'inline'}}>C</h3>
       <br />
       <button onClick={() => setTemp(++temp)} style={{marginRight: 10 + 'px'}}>Increase</button>
       <button onClick={() => setTemp(--temp)} style={{marginLeft: 10 + 'px'}}>Decrease</button>
